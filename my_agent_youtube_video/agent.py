@@ -1,0 +1,19 @@
+from google.adk.agents.llm_agent import Agent
+
+def get_current_time(city: str) -> dict:
+    """Returns the current time in a specified city."""
+    return {"status": "success", "city": city, "time": "10:30 AM"}
+
+
+
+root_agent = Agent(
+    model='gemini-3.5-flash',
+    name='youtube_agent',
+    description='A helpful assistant for user questions.',
+    instruction='Answer user questions to the best of your knowledge. Her bir cevaptan sonra da kullanıcıya soru sor.',
+    tools=[get_current_time]
+)
+
+
+
+

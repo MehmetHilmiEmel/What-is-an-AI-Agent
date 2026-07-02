@@ -1,0 +1,79 @@
+# ==========================================
+# İşletim Sistemi ve Editör Dosyaları
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.adk/
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# IDE ve Metin Editörleri (VS Code, JetBrains, Visual Studio)
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==========================================
+# Güvenlik ve Çevre Değişkenleri (KRİTİK!)
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+
+# ==========================================
+# Paket Yöneticileri ve Bağımlılıklar
+# ==========================================
+# Node / JavaScript
+node_modules/
+jspm_packages/
+.npm/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# PHP / Composer
+vendor/
+
+# Ruby
+.bundle/
+vendor/bundle/
+
+# ==========================================
+# Loglar ve Geçici Dosyalar
+# ==========================================
+*.log
+logs/
+*.npm
+*.tmp
+*.bak
+*.swp
+
+# ==========================================
+# Derleme ve Çıktı Klasörleri (Build/Dist)
+# ==========================================
+dist/
+build/
+out/
+bin/
+obj/
+target/
